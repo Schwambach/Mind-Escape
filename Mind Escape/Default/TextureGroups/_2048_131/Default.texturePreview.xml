@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureGroup>
+  <texture scale="1" mipsToGenerate="0" texwidth="512" texheight="1024">default_0.png</texture>
+  <tpe x="4" y="4" tpage="default_0.png">tile_chao1_output_tileset.tpe</tpe>
+  <tpe x="4" y="284" tpage="default_0.png">TileSet2_output_tileset.tpe</tpe>
+  <tpe x="2" y="562" tpage="default_0.png">spr_parede1_3a97f4ef-19db-457d-8b2f-e7c2d107fd0a.tpe</tpe>
+  <tpe x="2" y="822" tpage="default_0.png">spr_chao1_bc3bd293-bc10-4742-96ca-235e7e0f9177.tpe</tpe>
+  <tpe x="282" y="2" tpage="default_0.png">Sprite4_403e9740-8362-4b1c-b162-f4e5b2a95ae6.tpe</tpe>
+  <tpe x="282" y="70" tpage="default_0.png">Player_8e56c6c0-ebbb-4eb5-9118-6c6f6a374197.tpe</tpe>
+</TextureGroup>
