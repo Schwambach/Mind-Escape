@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aud_caixa_chave",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.7763265,
+  "name":"aud_caixa_chave",
+  "parent":{
+    "name":"Quarto",
+    "path":"folders/Sons/Interacoes/Quarto.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aud_caixa_chave.mp3",
+  "type":0,
+  "volume":1.0,
+}

@@ -1,0 +1,1 @@
+audio_play_sound(aud_menu,0,true,global.volume)

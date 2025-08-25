@@ -1,0 +1,1 @@
+audio_play_sound(aud_trilha_sonora,0,true,global.volume)

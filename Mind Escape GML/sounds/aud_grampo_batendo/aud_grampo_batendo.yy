@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aud_grampo_batendo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.6850113,
+  "name":"aud_grampo_batendo",
+  "parent":{
+    "name":"Cozinha",
+    "path":"folders/Sons/Interacoes/Cozinha.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aud_grampo_batendo.mp3",
+  "type":0,
+  "volume":0.25,
+}

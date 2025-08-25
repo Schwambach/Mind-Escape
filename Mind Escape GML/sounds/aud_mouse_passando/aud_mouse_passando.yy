@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aud_mouse_passando",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.12743764,
+  "name":"aud_mouse_passando",
+  "parent":{
+    "name":"Botoes",
+    "path":"folders/Sons/Botoes.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aud_mouse_passando.wav",
+  "type":0,
+  "volume":1.0,
+}
