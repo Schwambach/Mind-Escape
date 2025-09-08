@@ -33,8 +33,13 @@ if (cooldown <= 0 and ativado){
     }else if tipo == 6{
         global.retomada = true
         room = lugar
-    }else {
+    }else if tipo == 10{
+        Resetar()
+        room = Tela_Inicial
+    }else{
         global.transicao_ativa = true
+        Resetar()
+        audio_stop_all()
 		room = lugar
 	}
 	ativado = false

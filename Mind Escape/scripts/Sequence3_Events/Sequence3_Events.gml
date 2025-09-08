@@ -32,7 +32,7 @@ function Sequence3_event_step()
         global.player_cutscene = noone
         layer_destroy("Animacao")
     }else{
-    frame++
+        frame++
         if frame >=238{
             audio_stop_sound(aud_andando)
             instance_create_layer(270,440,"Instances",obj_player)

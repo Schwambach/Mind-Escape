@@ -320,27 +320,29 @@ switch(tipo){
         texto = [
             "Vou chamar esse elevador é agora, finalmente vou poder sair desse lugar",
             "Que bom que não dei de cara com nenhum louco",
+            "Stahnke - Olha o que temos aqui, alguém está tentando fugir",
+            "Stahnke - Eu cheguei na hora certa pra te pegar"
             ]
-        posicao_max = 1
+        posicao_max = 3
     break
     case 36:
         //Abrindo a caixa de fusiveis
         texto = [
-            "bruh4"
+            "Vou usar minha chave de fenda pra isso e ver se arrumo a energia"
             ]
         posicao_max = 0
     break
     case 37:
         //Primeira interação com a caixa aberta
         texto = [
-            "bruh5"
+            "Acho que se eu arrumar esses fios, consigo colocar o fusível que peguei no lugar"
             ]
         posicao_max = 0
     break
     case 38:
         //Completou o puzzle
         texto = [
-            "bruh5"
+            "Finalmente consegui arrumar a energia desse elevado, vou finalmente poder fugir daqui"
             ]
         posicao_max = 0
     break
@@ -350,4 +352,5 @@ indice = 0
 
 fim_fala = false
 
+global.dialogo_posicao = posicao
 global.player_dialogo = true

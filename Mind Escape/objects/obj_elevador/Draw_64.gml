@@ -14,9 +14,13 @@ if puzzle{
     }
     draw_set_font(Font_puzzle_fios)
         if valorAtual<10{
-            draw_text_color(915,837,string(valorAtual)+"0",c_green,c_green,c_green,c_green,1)
+            draw_text_color(915,837,string(valorAtual),c_green,c_green,c_green,c_green,1)
         }else{
             draw_text_color(915,837,string(valorAtual),c_green,c_green,c_green,c_green,1)
         }
+    draw_set_font(Font_dialogo)
+    draw_text(20,20,"Setinha pra subir e descer")
+    draw_text(20,50,"Enter para escolher e confirmar esolha")
+    draw_text(20,80,"Chegue no valor apontado no alvo")
     draw_set_font(-4)
 }

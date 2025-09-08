@@ -3,6 +3,8 @@ depth = -10
 
 if global.destruir_porta >= 2{
     image_index = 18
+}else if global.etapaElevadorSala > 2{
+    image_index = 2
 }
 
 puzzle = false

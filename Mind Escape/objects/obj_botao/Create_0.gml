@@ -82,4 +82,8 @@ switch (tipo){
         sprite_index = spr_botaoSalvarSair
         cooldownMax = 40
         break
+    case 10:
+        nome = "Menu"
+        sprite_index = spr_botaoMenu
+        break
 }

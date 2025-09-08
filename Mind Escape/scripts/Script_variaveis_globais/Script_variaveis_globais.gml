@@ -7,6 +7,7 @@ global.volume = 1
 //Bloquear interações
 global.player_ocupado = false
 global.player_dialogo = false
+global.player_combate = false
 
 //Quebrar portas
 global.destruir_porta = -1
@@ -18,8 +19,20 @@ global.slotColocar = 0
 
 //Cutscene
 global.player_cutscene = noone
+global.stahnke_cutscene = noone
 global.transicao_ativa = false
 global.retomada = false
+global.dialogo_posicao = 0
+global.seq_id = noone
+global.explodir_stahnke = false
+
+//Combate
+global.turnoStahnke = false
+global.atacar = false
+global.cooldown = 0
+global.stahnke_ultimoX = 0
+global.stahnke_ultimoY = 0
+global.jorginhoGanhou = false
 
 //Salvamento
 global.sala_atual = 1 //1=quarto 2=cozinha 3=banheiro 4=sala
@@ -81,6 +94,7 @@ function Carregar(){
         // Etapas de portas
         global.etapaPortaQuarto = ini_read_real("portas","etapa_quarto",0)
         global.etapaPortaCozinha = ini_read_real("portas","etapa_cozinha",0)
+        global.etapaElevadorSala = ini_read_real("portas","etapa_sala",0)
 
         ini_close()
     }
@@ -126,6 +140,7 @@ function Salvar(){
     // Etapas de portas
     ini_write_real("portas","etapa_quarto",global.etapaPortaQuarto)
     ini_write_real("portas","etapa_cozinha",global.etapaPortaCozinha)
+    ini_write_real("portas","etapa_sala",global.etapaElevadorSala)
 
     ini_close()
 }
@@ -170,11 +185,59 @@ function Resetar(){
     // Reset etapas de portas
     ini_write_real("portas","etapa_quarto",0)
     ini_write_real("portas","etapa_cozinha",0)
-
+    ini_write_real("portas","etapa_sala",0)
+    
+        //Bloquear interações
+    global.player_ocupado = false
+    global.player_dialogo = false
+    global.player_combate = false
+    
+    //Quebrar portas
+    global.destruir_porta = -1
+    
+    //Inventario
+    global.inventario = [noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone,noone]
+    global.inventario_nomes = ["","","","","","","","","","","",""]
+    global.slotColocar = 0
+    
+    //Cutscene
+    global.player_cutscene = noone
+    global.stahnke_cutscene = noone
+    global.transicao_ativa = false
+    global.retomada = false
+    global.dialogo_posicao = 0
+    global.seq_id = noone
+    global.explodir_stahnke = false
+    
+    //Combate
+    global.turnoStahnke = false
+    global.atacar = false
+    global.cooldown = 0
+    global.stahnke_ultimoX = 0
+    global.stahnke_ultimoY = 0
+    global.jorginhoGanhou = false
+    
+    //Salvamento
+    global.sala_atual = 1 //1=quarto 2=cozinha 3=banheiro 4=sala
+    global.player_ultimoX = 0
+    global.player_ultimoY = 0
+    global.cutscene_passadas = 0 //1=quarto 2=cozinha 3=sala
+    global.sala_antes_cozinha = 1 //1=quarto 2=cozinha 3=banheiro 4=sala
+    global.puzzle_caixa_chave = false
+    global.puzzle_ventilacao = false
+    global.puzzle_pia = false
+    global.fala_geladeira = false
+    global.faca_pega = false
+    global.desentupidor_pego = false
+    global.grampo_pego = false
+    global.cortina_aberta = false
+    global.ferramentas_pegas = false
+    global.etapaPortaQuarto = 0
+    global.etapaPortaCozinha = 0
+    global.etapaElevadorSala = 0
     ini_close()
     Carregar()
 }
 
 //Carregamento
 Carregar()
-window_set_fullscreen(global.tela_cheia)
