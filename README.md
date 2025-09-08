@@ -1,7 +1,7 @@
 # Mind-Escape
 ## Como Executar o Projeto?
 Tenha instalado na sua máquina a versão mais recente do Game Maker, de preferência via Steam, para se manter atualizado sem problemas
-### Abrindo projeto das pastas
+### Abrindo projeto das pastas(Versão mais Nova)
 - Dentro do Game Maker clique em abrir
 - Entre no diretório "GitHub/Mind-Escape/Mind Escape/"
 - Selecione o arquivo "Mind Escape.yyp"
