@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"aud_pegando_item",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.6056916,
+  "name":"aud_pegando_item",
+  "parent":{
+    "name":"Personagem",
+    "path":"folders/Sons/Personagem.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"aud_pegando_item.wav",
+  "type":0,
+  "volume":1.0,
+}

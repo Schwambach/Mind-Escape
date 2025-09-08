@@ -1,0 +1,2 @@
+ativado = true
+cooldown = cooldownMax

@@ -1,0 +1,1 @@
+//draw_text(960, 540, "X " + string(global.stahnke_ultimoX - global.player_ultimoX) + " Y " + string(global.stahnke_ultimoY - global.player_ultimoY))

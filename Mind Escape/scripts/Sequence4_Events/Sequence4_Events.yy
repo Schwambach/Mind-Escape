@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sequence4_Events",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Sequence4_Events",
+  "parent":{
+    "name":"Sequências",
+    "path":"folders/Sequências.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
