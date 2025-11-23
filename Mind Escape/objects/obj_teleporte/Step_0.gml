@@ -2,8 +2,8 @@ if(place_meeting(x,y,obj_player)){
     if(!bloqueado){
         bloqueado=true
         global.sala_atual = tipo
-        if localizacao==Cozinha{
-            global.sala_antes_cozinha = locTP
+        if room==Cozinha{
+            global.sala_antes_cozinha = tipo
         }
         room=localizacao    
     }

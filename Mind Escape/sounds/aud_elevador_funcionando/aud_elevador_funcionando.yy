@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"aud_elevador_funcionando",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
   "duration":22.690182,
+  "exportDir":"",
   "name":"aud_elevador_funcionando",
   "parent":{
     "name":"Sala",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"aud_elevador_funcionando.wav",
-  "type":0,
   "volume":0.35,
 }

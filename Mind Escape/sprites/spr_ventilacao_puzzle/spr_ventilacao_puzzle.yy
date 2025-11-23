@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ventilacao_puzzle",
   "bboxMode":0,
   "bbox_bottom":97,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b7f43fe6-be45-4ccc-9967-34fb314fd5e9","name":"b7f43fe6-be45-4ccc-9967-34fb314fd5e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d232c621-6c96-4751-8b4e-2a7ecb3b53a1","name":"d232c621-6c96-4751-8b4e-2a7ecb3b53a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"caeca645-6050-44e0-8416-3899002c43e6","name":"caeca645-6050-44e0-8416-3899002c43e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"202783a0-7407-45e3-871d-7952e09345e5","name":"202783a0-7407-45e3-871d-7952e09345e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f6b40b56-590f-490d-abed-5ebbb1b91bdc","name":"f6b40b56-590f-490d-abed-5ebbb1b91bdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3bc43c2c-73e3-4b26-b5f0-a182fd28a0c0","name":"3bc43c2c-73e3-4b26-b5f0-a182fd28a0c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1c2cef79-a09f-4719-a854-b209750de8c0","name":"1c2cef79-a09f-4719-a854-b209750de8c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7f43fe6-be45-4ccc-9967-34fb314fd5e9","name":"b7f43fe6-be45-4ccc-9967-34fb314fd5e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d232c621-6c96-4751-8b4e-2a7ecb3b53a1","name":"d232c621-6c96-4751-8b4e-2a7ecb3b53a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"caeca645-6050-44e0-8416-3899002c43e6","name":"caeca645-6050-44e0-8416-3899002c43e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"202783a0-7407-45e3-871d-7952e09345e5","name":"202783a0-7407-45e3-871d-7952e09345e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6b40b56-590f-490d-abed-5ebbb1b91bdc","name":"f6b40b56-590f-490d-abed-5ebbb1b91bdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3bc43c2c-73e3-4b26-b5f0-a182fd28a0c0","name":"3bc43c2c-73e3-4b26-b5f0-a182fd28a0c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1c2cef79-a09f-4719-a854-b209750de8c0","name":"1c2cef79-a09f-4719-a854-b209750de8c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,27 +77,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7f43fe6-be45-4ccc-9967-34fb314fd5e9","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"181e2a10-3704-46aa-9b39-39cb1412257d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d232c621-6c96-4751-8b4e-2a7ecb3b53a1","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2bf0cd87-592b-4e23-a5bb-e7a93af15b57","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"caeca645-6050-44e0-8416-3899002c43e6","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"79cb9447-f7b1-4794-9aad-4bafc27b99b8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"202783a0-7407-45e3-871d-7952e09345e5","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ce00f637-03e3-49a3-859d-bc3812550fb6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6b40b56-590f-490d-abed-5ebbb1b91bdc","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a78f15eb-9b26-438d-829e-b2455712cc87","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3bc43c2c-73e3-4b26-b5f0-a182fd28a0c0","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"59427c61-8a20-4150-a0b8-a872cf617b54","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c2cef79-a09f-4719-a854-b209750de8c0","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bb6aa960-84b3-43f1-b19e-a715fa062a24","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7f43fe6-be45-4ccc-9967-34fb314fd5e9","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"181e2a10-3704-46aa-9b39-39cb1412257d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d232c621-6c96-4751-8b4e-2a7ecb3b53a1","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2bf0cd87-592b-4e23-a5bb-e7a93af15b57","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"caeca645-6050-44e0-8416-3899002c43e6","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"79cb9447-f7b1-4794-9aad-4bafc27b99b8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"202783a0-7407-45e3-871d-7952e09345e5","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ce00f637-03e3-49a3-859d-bc3812550fb6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6b40b56-590f-490d-abed-5ebbb1b91bdc","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a78f15eb-9b26-438d-829e-b2455712cc87","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3bc43c2c-73e3-4b26-b5f0-a182fd28a0c0","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"59427c61-8a20-4150-a0b8-a872cf617b54","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c2cef79-a09f-4719-a854-b209750de8c0","path":"sprites/spr_ventilacao_puzzle/spr_ventilacao_puzzle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bb6aa960-84b3-43f1-b19e-a715fa062a24","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
