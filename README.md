@@ -1,4 +1,11 @@
 # Mind-Escape
+## Como Instalar o Jogo
+- Baixe o arquivo "Mind Escape.exe" da pasta "Instalador"
+- Execute o arquivo "Mind Escape.exe"
+- Aceite a licença de usuário do Game Maker clicando em "I Agree"
+- Clique em "Next" na tela de componentes de instalação
+- Clique em "Install" na tela de localização da instalação
+- Após a barra preencher clique em "Next" e na tela seguinte "Finish"
 ## Como Executar o Projeto?
 Tenha instalado na sua máquina a versão mais recente do Game Maker, de preferência via Steam, para se manter atualizado sem problemas
 ### Abrindo projeto das pastas(Versão mais Nova)

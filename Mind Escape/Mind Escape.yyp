@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"Mind Escape GML",
+  "%Name":"Mind Escape",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -71,7 +71,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.1.210",
   },
-  "name":"Mind Escape GML",
+  "name":"Mind Escape",
   "resources":[
     {"id":{"name":"Font_dialogo","path":"fonts/Font_dialogo/Font_dialogo.yy",},},
     {"id":{"name":"Font_inv","path":"fonts/Font_inv/Font_inv.yy",},},
